@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/irrigation-app/static/css/main.f48012d4.chunk.css",
-    "main.js": "/irrigation-app/static/js/main.29fb1ede.chunk.js",
-    "main.js.map": "/irrigation-app/static/js/main.29fb1ede.chunk.js.map",
-    "runtime-main.js": "/irrigation-app/static/js/runtime-main.7999b11c.js",
-    "runtime-main.js.map": "/irrigation-app/static/js/runtime-main.7999b11c.js.map",
-    "static/js/2.bf5c2330.chunk.js": "/irrigation-app/static/js/2.bf5c2330.chunk.js",
-    "static/js/2.bf5c2330.chunk.js.map": "/irrigation-app/static/js/2.bf5c2330.chunk.js.map",
-    "index.html": "/irrigation-app/index.html",
-    "precache-manifest.eb0338efd7391a057c8a6a44c79cb1be.js": "/irrigation-app/precache-manifest.eb0338efd7391a057c8a6a44c79cb1be.js",
-    "service-worker.js": "/irrigation-app/service-worker.js",
-    "static/css/main.f48012d4.chunk.css.map": "/irrigation-app/static/css/main.f48012d4.chunk.css.map",
-    "static/js/2.bf5c2330.chunk.js.LICENSE.txt": "/irrigation-app/static/js/2.bf5c2330.chunk.js.LICENSE.txt"
+    "main.css": "/iapp/static/css/main.f48012d4.chunk.css",
+    "main.js": "/iapp/static/js/main.29fb1ede.chunk.js",
+    "main.js.map": "/iapp/static/js/main.29fb1ede.chunk.js.map",
+    "runtime-main.js": "/iapp/static/js/runtime-main.fc9658c5.js",
+    "runtime-main.js.map": "/iapp/static/js/runtime-main.fc9658c5.js.map",
+    "static/js/2.bf5c2330.chunk.js": "/iapp/static/js/2.bf5c2330.chunk.js",
+    "static/js/2.bf5c2330.chunk.js.map": "/iapp/static/js/2.bf5c2330.chunk.js.map",
+    "index.html": "/iapp/index.html",
+    "precache-manifest.69e8999fea4052b57af106124e93ffb7.js": "/iapp/precache-manifest.69e8999fea4052b57af106124e93ffb7.js",
+    "service-worker.js": "/iapp/service-worker.js",
+    "static/css/main.f48012d4.chunk.css.map": "/iapp/static/css/main.f48012d4.chunk.css.map",
+    "static/js/2.bf5c2330.chunk.js.LICENSE.txt": "/iapp/static/js/2.bf5c2330.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7999b11c.js",
+    "static/js/runtime-main.fc9658c5.js",
     "static/js/2.bf5c2330.chunk.js",
     "static/css/main.f48012d4.chunk.css",
     "static/js/main.29fb1ede.chunk.js"
