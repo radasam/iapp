@@ -32,7 +32,7 @@ const AuthState = (props) => {
 
 		try {
 			const res = await axios.post(
-				'http://fb26d8c2.ngrok.io/auth',
+				'https://fb26d8c2.ngrok.io/auth',
 				formData,
 				config
 			);

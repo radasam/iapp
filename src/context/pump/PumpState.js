@@ -28,7 +28,7 @@ const PumpState = (props) => {
 		}
 
 		const status = await axios.get(
-			'http://fb26d8c2.ngrok.io/pump/status/' + pumpid,
+			'https://fb26d8c2.ngrok.io/pump/status/' + pumpid,
 			{
 				crossdomain: true,
 			}
@@ -102,7 +102,7 @@ const PumpState = (props) => {
 		}
 
 		const resData = await axios.post(
-			'http://fb26d8c2.ngrok.io/pump/status',
+			'https://fb26d8c2.ngrok.io/pump/status',
 			pumpStatus
 		);
 
@@ -115,7 +115,7 @@ const PumpState = (props) => {
 		}
 
 		const data = await axios.get(
-			'http://fb26d8c2.ngrok.io/sensor/log/' + pumpid,
+			'https://fb26d8c2.ngrok.io/sensor/log/' + pumpid,
 			{
 				crossdomain: true,
 			}
@@ -130,7 +130,7 @@ const PumpState = (props) => {
 		}
 
 		const run = await axios.get(
-			'http://fb26d8c2.ngrok.io/pump/run/' + pumpid + '/' + duration
+			'https://fb26d8c2.ngrok.io/pump/run/' + pumpid + '/' + duration
 		);
 	};
 
