@@ -2,7 +2,7 @@
 	"name": "iapp",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://radasam.github.io/irrigation-app",
+	"homepage": "http://radasam.github.io/iapp",
 	"proxy": "http://fb26d8c2.ngrok.io",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",

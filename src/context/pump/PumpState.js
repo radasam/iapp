@@ -27,9 +27,12 @@ const PumpState = (props) => {
 			setAuthToken(localStorage.token);
 		}
 
-		const status = await axios.get('/pump/status/' + pumpid, {
-			crossdomain: true,
-		});
+		const status = await axios.get(
+			'http://fb26d8c2.ngrok.io/pump/status/' + pumpid,
+			{
+				crossdomain: true,
+			}
+		);
 		console.log(status.data.status.type);
 		switch (status.data.status.type) {
 			// case 'off':
@@ -98,7 +101,10 @@ const PumpState = (props) => {
 				};
 		}
 
-		const resData = await axios.post('/pump/status', pumpStatus);
+		const resData = await axios.post(
+			'http://fb26d8c2.ngrok.io/pump/status',
+			pumpStatus
+		);
 
 		console.log(resData);
 	};
@@ -108,9 +114,12 @@ const PumpState = (props) => {
 			setAuthToken(localStorage.token);
 		}
 
-		const data = await axios.get('/sensor/log/' + pumpid, {
-			crossdomain: true,
-		});
+		const data = await axios.get(
+			'http://fb26d8c2.ngrok.io/sensor/log/' + pumpid,
+			{
+				crossdomain: true,
+			}
+		);
 
 		dispatch({ type: GET_SENSOR_DATA, payload: data.data.records });
 	};
@@ -120,7 +129,9 @@ const PumpState = (props) => {
 			setAuthToken(localStorage.token);
 		}
 
-		const run = await axios.get('/pump/run/' + pumpid + '/' + duration);
+		const run = await axios.get(
+			'http://fb26d8c2.ngrok.io/pump/run/' + pumpid + '/' + duration
+		);
 	};
 
 	return (

@@ -7,14 +7,16 @@ const Camera = () => {
 		var startX;
 
 		document.getElementById('imagebox-curr').innerHTML =
-			'<img style="max-width:100%;height:auto;" src="/pic/' + currpic + '">';
+			'<img style="max-width:100%;height:auto;" src="http://fb26d8c2.ngrok.io/pic/' +
+			currpic +
+			'">';
 
 		document.getElementById('imagebox-prev').innerHTML =
-			'<img style="max-width:100%;height:auto;display:none;" src="/pic/' +
+			'<img style="max-width:100%;height:auto;display:none;" src="http://fb26d8c2.ngrok.io/pic/' +
 			parseInt(currpic - 1) +
 			'">';
 		document.getElementById('imagebox-prev-2').innerHTML =
-			'<img style="max-width:100%;height:auto;display:none;" src="/pic/' +
+			'<img style="max-width:100%;height:auto;display:none;" src="http://fb26d8c2.ngrok.io/pic/' +
 			parseInt(currpic - 2) +
 			'">';
 
@@ -38,7 +40,7 @@ const Camera = () => {
 	const nextPic = () => {
 		if (currpic < 0) {
 			document.getElementById('imagebox-curr').innerHTML =
-				'<img style="max-width:100%;height:auto;" src="/pic/' +
+				'<img style="max-width:100%;height:auto;" src="http://fb26d8c2.ngrok.io/pic/' +
 				parseInt(currpic + 1) +
 				'">';
 			setCurrpic(currpic + 1);
@@ -48,14 +50,16 @@ const Camera = () => {
 		if (currpic <= 0) {
 			var nextPic = parseInt(currpic - 1);
 			document.getElementById('imagebox-curr').innerHTML =
-				'<img style="max-width:100%;height:auto;" src="/pic/' + nextPic + '">';
+				'<img style="max-width:100%;height:auto;" src="http://fb26d8c2.ngrok.io/pic/' +
+				nextPic +
+				'">';
 			setCurrpic(parseInt(currpic - 1));
 			document.getElementById('imagebox-prev').innerHTML =
-				'<img style="max-width:100%;height:auto;display:none;" src="/pic/' +
+				'<img style="max-width:100%;height:auto;display:none;" src="http://fb26d8c2.ngrok.io/pic/' +
 				parseInt(currpic - 2) +
 				'">';
 			document.getElementById('imagebox-prev-2').innerHTML =
-				'<img style="max-width:100%;height:auto;display:none;" src="/pic/' +
+				'<img style="max-width:100%;height:auto;display:none;" src="http://fb26d8c2.ngrok.io/pic/' +
 				parseInt(currpic - 3) +
 				'">';
 		}
