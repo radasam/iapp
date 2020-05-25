@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/irrigation-app/static/css/main.f48012d4.chunk.css",
+    "main.js": "/irrigation-app/static/js/main.29fb1ede.chunk.js",
+    "main.js.map": "/irrigation-app/static/js/main.29fb1ede.chunk.js.map",
+    "runtime-main.js": "/irrigation-app/static/js/runtime-main.7999b11c.js",
+    "runtime-main.js.map": "/irrigation-app/static/js/runtime-main.7999b11c.js.map",
+    "static/js/2.bf5c2330.chunk.js": "/irrigation-app/static/js/2.bf5c2330.chunk.js",
+    "static/js/2.bf5c2330.chunk.js.map": "/irrigation-app/static/js/2.bf5c2330.chunk.js.map",
+    "index.html": "/irrigation-app/index.html",
+    "precache-manifest.eb0338efd7391a057c8a6a44c79cb1be.js": "/irrigation-app/precache-manifest.eb0338efd7391a057c8a6a44c79cb1be.js",
+    "service-worker.js": "/irrigation-app/service-worker.js",
+    "static/css/main.f48012d4.chunk.css.map": "/irrigation-app/static/css/main.f48012d4.chunk.css.map",
+    "static/js/2.bf5c2330.chunk.js.LICENSE.txt": "/irrigation-app/static/js/2.bf5c2330.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7999b11c.js",
+    "static/js/2.bf5c2330.chunk.js",
+    "static/css/main.f48012d4.chunk.css",
+    "static/js/main.29fb1ede.chunk.js"
+  ]
+}
