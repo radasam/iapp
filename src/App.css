@@ -1,38 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .App {
-  text-align: center;
+	text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	line-height: 1.6;
+	background-color: #fff;
+	color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group input {
+	margin: 0.2rem 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+input[type='text'],
+input[type='time'],
+input[type='email'],
+input[type='password'],
+input[type='date'],
+input[type='number'],
+select,
+textarea {
+	display: block;
+	width: 80%;
+	padding: 0.4rem;
+	font-size: 1.2rem;
+	border: 1px solid #ccc;
+}
+.form-group {
+	margin: 1.2rem 0;
+	justify-content: center;
+	align-items: center;
+	display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.form-group label {
+	width: 20%;
+	font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.multi-form-group {
+	display: grid;
+	grid-template-columns: 20% 39% 2% 39%;
+	grid-auto-flow: dense;
+	width: 100%;
+}
+
+.multi-form-group label {
+	font-weight: bold;
+	width: 20%;
+	text-align: center;
+	margin: auto;
+	grid-row: 1 / 999;
+}
+
+.multi-form-group input {
+	width: auto;
+	margin: 0.6rem 0;
+}
+
+.multi-form-group select {
+	width: auto;
+	margin: 0.6rem 0;
+}
+
+.multi-form-group .col2 {
+	grid-column-start: 2;
+}
+
+.multi-form-group .col3 {
+	grid-column-start: 4;
+}
+
+.multi-form-group .col4 {
+	grid-column-start: 6;
+}
+
+.multi-form-group.four {
+	grid-template-columns: 20% 25% 2.5% 25% 2.5% 25%;
+}
+
+.navbar {
+	background-color: rgb(47, 82, 56);
+	color: rgb(240, 236, 218);
+}
+
+.navbar ul {
+	display: flex;
+	padding-inline-start: 2%;
+	padding: 1% 2%;
+	margin-block-end: unset;
+	margin-block-start: unset;
+}
+
+.navbar li {
+	display: block;
+	margin-right: 2%;
+}
+.navbar li a {
+	color: white;
+	text-decoration: none;
+}
+
+.pump {
+	margin: 5%;
+	padding: 2.5% 2.5%;
+	border: 2px solid rgb(47, 82, 56);
+}
+
+.pump .btn {
+	color: rgb(240, 236, 218);
+	background: rgb(47, 82, 56);
+	padding: 0.4rem;
+	font-weight: bold;
+	margin: 0 1%;
+}
+
+.pump .btn-right {
+	float: right;
+	padding: 0% 5%;
+	margin-right: 0;
 }
